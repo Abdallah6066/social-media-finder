@@ -10,7 +10,7 @@ export default function Home() {
   const [result, setResult] = useState<string | null>(null);
 
   // 🔴 مهم: غيّر هذا الرابط إلى رابط Vercel بعد النشر
-  const SITE_URL = 'https://social-media-finder.vercel.app';
+  const SITE_URL = 'https://social-media8.vercel.app';
 
   const mockSearch = (number: string) => {
     const platforms = ['فيسبوك', 'إنستغرام', 'تويتر', 'لينكدإن', 'تيك توك', 'سناب شات'];
